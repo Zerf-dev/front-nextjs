@@ -9,6 +9,7 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'next',
+    'next/core-web-vitals',
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:react-hooks/recommended',
@@ -23,7 +24,8 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': 'error',
-    'no-console': 'warn'
+    'no-console': 'warn',
+    'react/react-in-jsx-scope': 'off'
   },
   settings: {
     react: {

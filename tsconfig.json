@@ -20,9 +20,10 @@
       "#styles/*": ["./src/styles/*"],
       "#components/*": ["./src/components/*"],
       "#utils/*": ["./src/utils/*"],
-      "#assets/*": ["./src/assets/*"]
+      "#assets/*": ["./src/assets/*"],
+      "#constants/*": ["./src/constants/*"]
     }
   },
-  "include": ["next-env.d.ts", "next.config.js", "**/*.ts", "**/*.tsx", ".eslintrc.js", "prettier.config.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".eslintrc.js", "next.config.js", "next-i18next.config.js"],
   "exclude": ["node_modules"]
 }
